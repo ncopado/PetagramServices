@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="mcontact">Contacto</string>
+    <string name="mabout">Acerca de</string>
+    <string name="mConfigAcount">Configurar Cuenta</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="txtname">Nombre</string>
+    <string name="txtemail">Email</string>
+    <string name="txtmessage">Mensaje</string>
+    <string name="mNotificaciones">Recibir Notificaciones</string>
+</resources>

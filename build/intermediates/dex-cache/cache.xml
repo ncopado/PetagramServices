@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ncopado/AndroidStudioProjects/TareasCoursera/PetagramServices/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eb774a0af6d6db9ec6647ff60be6f0780ab6c77d">
+        <dex dex="/Users/ncopado/AndroidStudioProjects/TareasCoursera/PetagramServices/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_49ab7e79decb0b5cb7a500b19247d741d5d7bca9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ncopado/AndroidStudioProjects/TareasCoursera/PetagramServices/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/ncopado/AndroidStudioProjects/TareasCoursera/PetagramServices/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6919511fc47a6c0c9cd64d473560a992c5c8b804/classes.dex" />
+    </item>
+
+</items>

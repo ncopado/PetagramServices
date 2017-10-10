@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mContact"
+        android:title="@string/mcontact"
+        android:orderInCategory="100"
+
+        >
+
+    </item>
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/mabout"
+        android:orderInCategory="101"
+        >
+    </item>
+
+    <item
+        android:id="@+id/mConfigAcount"
+        android:title="@string/mConfigAcount"
+        android:orderInCategory="104"
+        ></item>
+
+
+    <item
+        android:id="@+id/mNotificaciones"
+        android:title="@string/mNotificaciones"
+        android:orderInCategory="105"
+
+
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/mFavourite"
+        android:title="Refresh"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/icons8_hotel_48"    />
+</menu>
