@@ -51,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
 
         setUpViewPager();
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            tabLayout.getTabAt(1).select();
+
+        }
+
+
+
 
     }
 

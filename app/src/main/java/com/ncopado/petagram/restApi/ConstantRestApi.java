@@ -41,10 +41,23 @@ public class ConstantRestApi {
 
     }
 
+    public static final  String KEY_MEDIA="media/{mediaId}/likes"+KEY_ACCESS_TOKEN+ACCES_TOKEN;
+
+
+    /* public static  String KEY_MEDIA_LIKES="likes";
+    public static String getUrlLikes(String mediaId){
+        return  KEY_MEDIA + mediaId + KEY_MEDIA_LIKES+KEY_ACCESS_TOKEN;
+    }*/
+
+
+
+
+
 
     //root my server
     public static final String ROOT_URL_MYAPI="https://gentle-thicket-56327.herokuapp.com/";
-    public  static  final  String KEY_POST_ID_TOKEN="registrar-usuario";
+    public static final String KEY_POST_ID_TOKEN="registrar-usuario";
+    public static final String KEY_POST_SAVE_LIKES="registrar-likes";
 
 
 

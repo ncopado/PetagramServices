@@ -16,6 +16,16 @@ public class Pet {
     private  int Photo;
     private  String UrlPhoto;
     private  String UrlPhotoProfile;
+    private  String ImgId;
+
+
+    public String getImgId() {
+        return ImgId;
+    }
+
+    public void setImgId(String imgId) {
+        ImgId = imgId;
+    }
 
     public String getUrlPhotoProfile() {
         return UrlPhotoProfile;

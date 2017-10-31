@@ -39,6 +39,8 @@ public class PetDeserialize implements JsonDeserializer<PetResponse> {
 
             JsonObject petResponDataObject=responseData.get(i).getAsJsonObject();
 
+            String mediaId=petResponDataObject.get(JsonKeys.MEDIA_ID).getAsString();
+
             JsonObject userJsonData=petResponDataObject.getAsJsonObject(JsonKeys.USER);
             String id=userJsonData.get(JsonKeys.USER_ID).getAsString();
             String fullName=userJsonData.get(JsonKeys.USER_FULLNAME).getAsString();
@@ -61,6 +63,7 @@ public class PetDeserialize implements JsonDeserializer<PetResponse> {
             pet.setUrlPhoto(urlFoto);
             pet.setReiting(likes);
             pet.setUrlPhotoProfile(profilePicture);
+            pet.setImgId(mediaId);
 
 
             pets.add(pet);

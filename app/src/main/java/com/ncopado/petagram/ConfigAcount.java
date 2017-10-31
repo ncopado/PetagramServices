@@ -114,9 +114,9 @@ public class ConfigAcount extends AppCompatActivity {
                 PetRepository petRepository = new PetRepository(context);
                 petRepository.insertUserId(id);
 
-                String  token = FirebaseInstanceId.getInstance().getToken();
+               /* String  token = FirebaseInstanceId.getInstance().getToken();
                 enviarTokenRegistro(token,id);
-
+                */
 
             }
 
